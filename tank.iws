@@ -1,190 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e6e5c9c-2742-403e-9b9b-2a02046b6015" name="Default Changelist" comment="坦克大战,准备用用责任链">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Dir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Explore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/PropertyMgr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/ResourceMgr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/TankFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/DefaultFireStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/Fire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/FireMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/FireStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/FourDirBulltet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/FourDirectioFireStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/FourDirectioFireStrategyE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/TwoBulletsFireStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/audio/explode.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/audio/tank_fire.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/audio/tank_move.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/audio/war1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/BadTank1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/BadTank2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/GoodTank1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/GoodTank2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bulletD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bulletL.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bulletR.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bulletU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bulletU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/e9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/missileLD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/missileLU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/missileRD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/missileRU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/square0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/square1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/square2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/square3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/square4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/square5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/square6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tankD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tankL.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tankLD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tankLU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tankR.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tankRD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tankRU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tankU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ImageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tank.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tank.iws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/tank.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/audio/explode.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/audio/tank_fire.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/audio/tank_move.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/audio/war1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Audio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Bullet$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Bullet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Dir.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Explore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Group.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/ImageUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/PropertyMgr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/ResourceMgr$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/ResourceMgr$ResourceMgrHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/ResourceMgr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Tank$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Tank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame$MyKeyListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/AbstractFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/DefaultFireStrategy$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/DefaultFireStrategy$DefaultFireStrategyHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/DefaultFireStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/Fire$FireHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/Fire.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/FireMode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/FireStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/FourDirectioFireStrategy$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/FourDirectioFireStrategy$FourDirectioFireStrategyHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/FourDirectioFireStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/FourDirectioFireStrategyE.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/TwoBulletsFireStrategy$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/TwoBulletsFireStrategy$TwoBulletsFireStrategyHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/TwoBulletsFireStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/BadTank1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/BadTank2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/GoodTank1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/GoodTank2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/bulletD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/bulletL.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/bulletR.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/bulletU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/bulletU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/e9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/missileLD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/missileLU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/missileRD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/missileRU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/square0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/square1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/square2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/square3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/square4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/square5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/square6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tankD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tankL.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tankLD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tankLU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tankR.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tankRD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tankRU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tankU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/ImageTest.class" afterDir="false" />
+    <list default="true" id="7e6e5c9c-2742-403e-9b9b-2a02046b6015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/BadTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/BadTankFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/GoodTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/GoodTankFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/tankFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/TankFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/tank/fire/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank.iws" beforeDir="false" afterPath="$PROJECT_DIR$/tank.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame$MyKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame$MyKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/tank/TankFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/tank/fire/AbstractFactory.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -242,18 +76,18 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work_place\java_work_place\idea\tank\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mashibing.tank.fire" />
-      <recent name="com.mashibing.tank" />
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work_place\java_work_place\idea\tank\src\main\java\com\mashibing\tank\fire" />
       <recent name="D:\work_place\java_work_place\idea\tank\src\main\java\com\mashibing\tank" />
       <recent name="D:\work_place\java_work_place\idea\tank\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mashibing.tank" />
+      <recent name="com.mashibing.tank.fire" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work_place\java_work_place\idea\tank\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,7 +108,7 @@
       <module name="tank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.tank.fire.*" />
+          <option name="PATTERN" value="com.mashibing.tank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,7 +121,7 @@
       <module name="tank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.tank.fire.*" />
+          <option name="PATTERN" value="com.mashibing.tank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,8 +174,16 @@
       <workItem from="1609466200796" duration="531000" />
       <workItem from="1609468066641" duration="26413000" />
       <workItem from="1609917178526" duration="34106000" />
-      <workItem from="1610148146946" duration="1433000" />
+      <workItem from="1610148146946" duration="6313000" />
     </task>
+    <task id="LOCAL-00001" summary="坦克大战,准备用用责任链">
+      <created>1610194391007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610194391007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

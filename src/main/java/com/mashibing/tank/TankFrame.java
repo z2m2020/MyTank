@@ -17,8 +17,10 @@ public class TankFrame extends Frame {
 
     //
 //    ResourceMgr resourceMgr=new ResourceMgr();
-    Tank myTank = new Tank(200, 400, Dir.DOWN, Group.GOOD, this);
-    //    Tank badTank =new Tank(300,300,Dir.RIGHT,this);
+    AbstractFactory tankFactory=new GoodTankFactory();
+//    Tank myTank = new Tank(200, 400, Dir.DOWN, Group.GOOD, this);
+//        Tank badTank =new Tank(300,300,Dir.RIGHT,this);
+    Tank myTank=tankFactory.createTank(200, 400, Dir.DOWN,this);
     List<Bullet> bullets = new ArrayList<>();
     List<Tank> tanks = new ArrayList<>();
     List<Explore> explores = new ArrayList<>();

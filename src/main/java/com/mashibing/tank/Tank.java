@@ -20,7 +20,7 @@ public class Tank {
     private boolean living=true;
     private Group group=Group.BAD;
     Rectangle rect=new Rectangle();
-    private FireStrategy fireStrategy=null;
+    protected FireStrategy fireStrategy=null;
 //        if (this.Group == )FourDirectioFireStrategy.getInstance();
 //    private FireStrategy fireStrategy= new FourDirectioFireStrategyE();
 
@@ -44,15 +44,15 @@ public class Tank {
         rect.width=WIDTH;
         rect.height=HEIGHT;
 
-        if (group ==Group.GOOD){
-            String goodFSName=(String)PropertyMgr.get("goodFS");
-                fireStrategy=(FireStrategy) Class.forName(goodFSName).getMethod("getInstance").invoke(this);
+//        if (group ==Group.GOOD){
+//            String goodFSName=(String)PropertyMgr.get("goodFS");
+//                fireStrategy=(FireStrategy) Class.forName(goodFSName).getMethod("getInstance").invoke(this);
 
 //            fireStrategy = FourDirectioFireStrategy.getInstance();
-        }else {
-            String badFSName=(String)PropertyMgr.get("badFS");
-            fireStrategy= (FireStrategy) Class.forName(badFSName).getMethod("getInstance").invoke(this);
-        }
+//        }else {
+//            String badFSName=(String)PropertyMgr.get("badFS");
+//            fireStrategy= (FireStrategy) Class.forName(badFSName).getMethod("getInstance").invoke(this);
+//        }
 
     }
 
@@ -229,5 +229,9 @@ public class Tank {
         Explore e=new Explore(this.x,this.y,this.tf);
         this.tf.explores.add(e);
         return e;
+    }
+    public FireStrategy getFireStrategy(String key) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        String goodFSName=(String)PropertyMgr.get(key);
+        return fireStrategy=(FireStrategy) Class.forName(goodFSName).getMethod("getInstance").invoke(this);
     }
 }
