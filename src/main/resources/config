@@ -1,0 +1,8 @@
+#配置文件
+tankvolume=10
+tankSpeed=5
+bulletSpeed=10
+gameWidth=800
+gameHeight=600
+goodFS=com.mashibing.tank.fire.TwoBulletsFireStrategy
+badFS=com.mashibing.tank.fire.FourDirectioFireStrategy
